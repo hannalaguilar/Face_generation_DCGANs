@@ -31,12 +31,12 @@ The hyperparameters were chosen based on the original paper [*Unsupervised Repre
 
 ## Installation
 
-Some helper functions was used:
+1) Some helper functions was used:
 
 * problem_unittests.py: a collection of functions which serves to test our model.
 * workspace_utils.py: a collection of functions which serves to run projects inside Udacity working environments.
 
-Using [Anaconda](https://www.anaconda.com/products/individual), in an enviroment with python 3, install the following packages:
+2) Using [Anaconda](https://www.anaconda.com/products/individual), in an enviroment with python 3, install the following packages:
 ```
 conda install jupyter, numpy 
 conda install -c pytorch pytorch
