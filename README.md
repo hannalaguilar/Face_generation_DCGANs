@@ -10,21 +10,21 @@ For this project a subset of [CelebFaces Attributes Dataset (CelebA)](http://mml
 
 ### Hyperparameters
 
-
+The hyperparameters were chosen based on the original paper *Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks*. `conv_dim` was set in 64 but it can be changed.
 
 | Hyperparameters  | Value   | 
-| -------------- | --------- |
-| conv_dim       | 64     | 
-| batch_size       | 128     | 
-| z_size   | 100     | 
-| learning rate       | 0.0002     | 
-| LeaklyRelu slope         | 0.2       | 
+| -------------- ---| ------ |
+| conv_dim (D, G)   | 64     | 
+| batch_size        | 128    | 
+| z_size            | 100    | 
+| learning rate     | 0.0002 | 
+| LeaklyRelu slope  | 0.2    | 
 
 ### Technologies used:
 
 * Python, numpy
-* Neural networks 
-* RNN, LSTM
+* Generative Adversarial Networks (GANs) 
+* DCGANs
 * jupyter notebook, anaconda
 
 ## Installation
