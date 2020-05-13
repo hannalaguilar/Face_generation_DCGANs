@@ -1,26 +1,16 @@
-# TV Script with RNN
+# Face generation with DCGANs
 
 ## Project overview
 
-This project implements a recurrent neural network (LSTM) for training a language model. This model is used to generate a new text, based on the patterns it learned from the training data.
+This project implements a deep convolutional generative adversarial networks (DCGANs) on a dataset of faces to aim to generate images of new and realistic human faces. 
 
-The dataset was composed of scripts from the Seinfeld TV show.
+### Data
 
-### Hyperparameters
+For this project a subset of [CelebFaces Attributes Dataset (CelebA)](http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html) was used.
 
-A import task in the project is to set the hyperparameters. The two most important parameters that control the model are `hidden_dim` and  `n_layers`. The `n_layers` usually takes a values from 2 or 3. In this project it was set as 2. For `hidden_dim` values as 128, 256 or 512 are usual.
+Download a subset of [CelebA dataset](https://s3.amazonaws.com/video.udacity-data.com/topher/2018/November/5be7eb6f_processed-celeba-small/processed-celeba-small.zip). Unzip the folder and place it in the folder of the project. The location of the images for use the tool `ImageFolder` from Pytorch would be `face-project/processed_celeba_small/celeba. The folder contain a 24,396 images.
 
-The final hyperparameters were:
 
-| Hyperparameters  | Value | 
-| -------------- | --------- |
-| sequence_length  | 30      | 
-| batch_size       | 128     | 
-| embedding_dim    | 200     | 
-| hidden_dim       | 512     | 
-| n_layers         | 2       | 
-
-In order to improve the model the parameters can be changed.
 
 ### Technologies used:
 
