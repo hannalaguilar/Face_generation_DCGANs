@@ -31,14 +31,9 @@ The hyperparameters were chosen based on the original paper [*Unsupervised Repre
 
 ## Installation
 
-The project involves:
-
-* Text processing: normalize and cleaning text
-* Train the model: LSTM neural network
-* Generate new script
-
 Using [Anaconda](https://www.anaconda.com/products/individual), in an enviroment with python 3, install the following packages:
 ```
-conda install jupyter, numpy, 
+conda install jupyter, numpy 
 conda install -c pytorch pytorch
+conda install -c pytorch torchvision
 ```
