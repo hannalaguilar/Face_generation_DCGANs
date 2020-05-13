@@ -12,7 +12,7 @@ For this project a subset of [CelebFaces Attributes Dataset (CelebA)](http://mml
 
 ### Hyperparameters
 
-The hyperparameters were chosen based on the original paper [*Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks*](https://arxiv.org/abs/1703.10593). `conv_dim` was set in 64 but it can be changed in order to improve the model.
+The hyperparameters were chosen based on the original paper [*Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks*](https://arxiv.org/abs/1703.10593). `conv_dim` was set in 64 but it can be changed.
 
 | Hyperparameters  | Value   | 
 | ------------------| ------ |
