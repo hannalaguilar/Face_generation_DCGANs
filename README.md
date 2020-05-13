@@ -8,6 +8,8 @@ This project implements a deep convolutional generative confrontation network (D
 
 For this project a subset of [CelebFaces Attributes Dataset (CelebA)](http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html) was used. The dataset can be download [here](https://s3.amazonaws.com/video.udacity-data.com/topher/2018/November/5be7eb6f_processed-celeba-small/processed-celeba-small.zip). Unzip the folder and place it in the folder of the project, at location `face-project/processed_celeba_small`. The folder contain a 24,396 images.
 
+<img src="./ims/processed_face_data.png" width=80% align="center"> 
+
 ### Hyperparameters
 
 The hyperparameters were chosen based on the original paper *Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks*. `conv_dim` was set in 64 but it can be changed in order to improve the model.
