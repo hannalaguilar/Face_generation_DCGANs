@@ -31,7 +31,7 @@ The hyperparameters were chosen based on the original paper [*Unsupervised Repre
 
 ## Installation
 
-Some helpfull functions were used:
+Some helpful functions were used:
 
 * `problem_unittests.py`: a collection of functions to test the model.
 * `workspace_utils.py`: a collection of functions to run projects inside Udacity working environment.
