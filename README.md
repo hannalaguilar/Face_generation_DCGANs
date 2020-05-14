@@ -32,7 +32,7 @@ The hyperparameters were chosen based on the original paper [*Unsupervised Repre
 
 The model was run on GPU. CPU is not recommended. It took about 3 hrs.
 
-<img src="./training/training_losses.png" width=70%> 
+<img src="./training/training_losses.png" width=40%> 
 
 Generated fake-faced after 20 epochs of training:
 
