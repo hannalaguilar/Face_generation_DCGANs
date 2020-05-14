@@ -36,7 +36,7 @@ The model was run on GPU. CPU is not recommended. It took about 3 hrs.
 
 Generated faces after 20 epochs of training:
 
-<img src="./training/img_epoch-1.png" align="center"> 
+<img src="./training/img_epoch-1.png" width=80%  align="center"> 
 
 ## Installation
 
